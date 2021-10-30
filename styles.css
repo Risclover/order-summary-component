@@ -1,3 +1,182 @@
-body {
-  color: red;
+body, html {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("Images/pattern-background-desktop.svg"); 
+  background-repeat: no-repeat; 
+  background-position: top;
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  line-height: 1.5;
+}
+
+#content {
+  background-color: white;
+  width: 425px;
+  height: auto;
+  margin: 100px auto 0 auto;
+  border-radius: 20px;
+	box-shadow: 0 10px 40px -10px rgba(64, 49, 165, 0.2);
+}
+
+#mainimg {
+  border-radius: 20px 20px 0 0;
+  width: 425px;
+  height: auto;
+}
+
+#title {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-top: 30px;
+}
+
+#description {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 30px;
+  color: hsl(224, 23%, 55%);
+}
+
+#middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px auto 30px auto;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  width: 80%;
+  height: 85px;
+  padding: 5px 0;
+}
+
+#music {
+  margin: 15px 15px 15px 20px;
+  height: auto;
+  width: 45px;
+}
+
+#annual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#musicpic {
+  display: flex;
+  align-items: center;
+}
+
+
+
+#right {
+  float: right;
+  margin: 30px 25px 30px 30px;
+}
+
+.plan {
+  font-weight: 900;
+  color:hsl(223, 47%, 23%);
+  font-size: 16px;
+}
+
+.year {
+  color:hsl(224, 23%, 55%);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+button {
+  width: 80%;
+  height: 45px;
+  border-radius: 10px;
+  margin: 0 auto 15px auto;
+  background-color:hsl(245, 75%, 52%);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border: 0;
+  box-shadow: hsl(245, 75%, 85%) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+
+#bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cancel {
+  margin: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color:hsl(224, 23%, 55%);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.attribution {
+  padding-bottom: 1px;
+  font-size: 1em;
+}
+
+.attribution a {
+  text-decoration: none;
+}
+
+.attribution a:visited {
+  color:hsl(223, 47%, 23%);
+}
+
+.attribution a:hover {
+  color: hsl(239, 82%, 53%);
+}
+
+button:hover {
+  background-color: rgb(120, 90, 255);
+}
+
+.change:hover {
+  color: rgb(120, 90, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#cancel:hover {
+  color: black;
+}
+
+@media (max-width: 435px) {
+  #mainimg {
+    width: 100%;
+    display: block;
+  }
+
+  #content {
+    width: 90%;
+  }
+
+  #middle {
+    margin: 20px auto;
+  }  
+
+  #right {
+    margin: 10px;
+  }
+
+  #cancel {
+    margin: 10px auto 20px auto;
+  }
 }

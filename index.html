@@ -7,32 +7,67 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="styles.css" rel="stylesheet">
   
+  <!-- Google font(s) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 16px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
 <body>
-
-  <h1>Order Summary</h1>
-
-  <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!</p>
-
-  <p>Annual Plan</p>
-  <p>$59.99/year</p>
-
-  <a href="#">Change</a>
-
-  <button>Proceed to Payment</button>
-  <a href="#">Cancel Order</a>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<div id="content">
+  <!-- Hero image -->
+  <div id="head-image">
+    <img src="Images/illustration-hero.svg" id="mainimg">
   </div>
+
+  <!-- Content -->
+  <div id="main">
+
+    <!-- Header + description -->
+    <h1 id="title">Order Summary</h1>
+    <p id="description">You can now listen to millions of songs, audiobooks, and podcasts on any 
+    device anywhere you like!</p>
+
+    <!-- Middle div -->
+    <div id="middle">
+      
+      <!-- Music pic -->
+      <div id="musicpic">
+        <img src="Images/icon-music.svg" id="music">
+      </div>
+
+      <!-- Annual plan + price -->
+      <div id="annual">
+        <p><span class="plan">Annual Plan</span>
+        <span class="year">$59.99/year</span></p>
+      </div>
+
+      <!-- Change link -->
+      <div id="right">
+        <a class="change" href="#">Change</a>
+      </div>
+    </div>
+    
+      <!-- Bottom part (Button & Cancel) -->
+      <div id="bottom">
+        <button>Proceed to Payment</button>
+        <a href="#" id="cancel">Cancel Order</a>
+      </div>
+    </div>
+</div>
+
+<!-- Bottom credits -->
+<div class="attribution">
+  <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  Coded by <a href="https://www.frontendmentor.io/profile/Risclover">Risclover</a>.</p>
+</div>
 </body>
 </html>
