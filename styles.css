@@ -164,10 +164,6 @@ button:hover {
 }
 
 @media (max-width: 435px) {
-  body {
-    background-image: url('../images/pattern-background-mobile.svg');
-    background-size: auto;
-  }
 
   #mainimg {
     width: 100%;
