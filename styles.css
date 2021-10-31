@@ -22,7 +22,7 @@ body, html {
   height: auto;
   margin: 100px auto 0 auto;
   border-radius: 20px;
-	box-shadow: 0 10px 40px -10px rgba(64, 49, 165, 0.2);
+  box-shadow: 0 10px 40px -10px rgba(64, 49, 165, 0.2);
 }
 
 #mainimg {
