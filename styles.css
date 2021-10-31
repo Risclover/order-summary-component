@@ -1,10 +1,15 @@
 body, html {
-  background-color: hsla(225, 100%, 94%, 0.37);
-  background-image: url("Images/pattern-background-desktop.svg"); 
-  background-repeat: no-repeat; 
+  background-image: url('../images/pattern-background-desktop.svg');
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
   background-position: top;
+  background-size: contain;
   margin: 0;
   padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
   font-family: 'Red Hat Display', sans-serif;
   line-height: 1.5;
 }
@@ -159,6 +164,11 @@ button:hover {
 }
 
 @media (max-width: 435px) {
+  body {
+    background-image: url('../images/pattern-background-mobile.svg');
+    background-size: auto;
+  }
+
   #mainimg {
     width: 100%;
     display: block;
