@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/Risclover/order-summary-component/)
+- [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-project-using-html-css-I-N2atUp8)
 - [Live site URL](https://risclover.github.io/order-summary-component/)
 
 ## My process
